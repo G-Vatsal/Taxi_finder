@@ -1,0 +1,21 @@
+Create table driver(
+S_No int(20) primary key,
+Name varchar(20),
+Car_No varchar(20) not null,
+Car_Model char(20),
+Location int,
+Availability bool,
+PhoneNo char(20),
+Rating float
+);
+
+create table user
+(
+userid char(20) primary key,
+password varchar(20) not null,
+Wallet_Money int,
+BookingStatus bool,
+Email_ID varchar(40),
+PhoneNumber char(20),
+FullName char(40)
+);
